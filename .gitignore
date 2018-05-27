@@ -1,4 +1,7 @@
 _site
+_blog
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+.idea
+

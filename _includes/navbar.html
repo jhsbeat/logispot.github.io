@@ -16,6 +16,11 @@
                             Home
                         </a>
                     </li>
+                    {% for tag in site.categories %}
+                    <li>
+                        <a href="#{{ tag[0] | slugify }}" class="post-tag">{{ tag[0] }}</a>
+                    </li>
+                    {% endfor %}
                 </ul>
             </nav>
         </div>

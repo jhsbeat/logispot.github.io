@@ -1,6 +1,7 @@
 // Typography
 //
-$base-font-family: 'Proxima Nova', Arial, sans-serif;
+//$base-font-family: 'Proxima Nova', Arial, sans-serif;
+$base-font-family: 'Noto Sans Light','Malgun Gothic',sans-serif;
 $serif-font-family: "Georgia", serif;
 $heading-font-family: $base-font-family;
 $fonts-path: '../fonts/';
@@ -41,7 +42,8 @@ $lighter-gray-color: lighten($light-gray-color, 20%);
 
 // Font Colors
 //
-$base-font-color: $medium-gray-color;
+//$base-font-color: $medium-gray-color;
+$base-font-color: #333;
 $action-color: $primary-color;
 
 // Border

@@ -43,6 +43,15 @@
        url("#{$fonts-path}ProximaNova-Semibold-6d67e36a9e19cc4fe60195bddc332634.svg") format("svg");
 }
 
+@font-face {
+  font-family: 'Noto Sans Light';
+  font-weight: 400;
+  font-style: normal;
+  src: url("#{$fonts-path}noto_sans/NotoSansCJKkr-Light.eot");
+  src: url("#{$fonts-path}noto_sans/NotoSansCJKkr-Light.eot?") format("embedded-opentype"),
+  url("#{$fonts-path}noto_sans/NotoSansCJKkr-Light.otf") format("opentype"),
+  url("#{$fonts-path}noto_sans/NotoSansCJKkr-Light.svg") format("svg");
+}
 
 body {
   color: $base-font-color;
