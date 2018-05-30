@@ -12,4 +12,10 @@
     margin-left: 20px;
     margin-bottom: 20px;
   }
+
+  *:not(hr){
+    &+h2, &+h3 {
+      margin: 2em 0 1em 0;
+    }
+  }
 }
