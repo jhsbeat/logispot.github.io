@@ -16,7 +16,7 @@ krandown:
 
 title: Logispot
 description: "Logispot Tech Blog"
-keywords: "Logistics"
+keywords: "Logistics, PHP, Laravel, Vue.js, Ionic3, Logispot"
 
 
 baseurl: ""
@@ -34,8 +34,8 @@ author:
   job       : IT / Logistics
   bio       : "Description Here"
   thumb     : /images/author.jpg
-  email     : develop@truckup.kr
-  url       : https://www.truckup.kr
+  email     : tech@logi-spot.com
+  url       : http://www.logi-spot.com
   github    : https://github.com/Logispot
 
 # google_analytics: UA-52446115-1
@@ -43,3 +43,6 @@ repo: http://github.com/logispot/logispot.github.io
 
 # comments
 disqus_shortname: "Logispot"
+
+gems:
+  - jekyll-seo-tag

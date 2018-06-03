@@ -3,5 +3,6 @@ _blog
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
-.idea
+.idea/
+
 
